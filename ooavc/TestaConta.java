@@ -14,6 +14,8 @@ public class TestaConta {
 		//Fazendo instanciacao e declaracao na mesma linha
 		Conta c1 = new ContaPoupanca();
 		//System.out.println(c1.getNumero());
+		
+		//Operacoes de inicialização dos atributos
 		c1.numero = 001;
 		c1.nome = "Danilo";
 		c1.saldo = 1000.00;

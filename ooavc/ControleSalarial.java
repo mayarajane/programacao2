@@ -1,7 +1,7 @@
 package ooavc;
 
 public class ControleSalarial {
-private double totalSalarios = 0;
+	private double totalSalarios = 0;
 	
 	public void setTotalSalarios(Funcionario funcionario) {
 		this.totalSalarios += funcionario.getSalario();

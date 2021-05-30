@@ -21,6 +21,10 @@ public class Conta3 {
 		contadorContas++;
 	}
 	
+	public Conta3(){
+		
+	}
+	
 	public int getcontadorContas() {
 		return Conta3.contadorContas;
 	}
@@ -39,6 +43,18 @@ public class Conta3 {
 	
 	public int getNumero() {
 		return numero;
+	}
+	
+	public double getSaldo(){
+		return saldo;
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	public void setNumero(int numero) {
+		this.numero = numero;
 	}
 	
 	void depositar(double valor) {
