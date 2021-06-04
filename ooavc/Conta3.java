@@ -2,7 +2,7 @@ package ooavc;
 
 public class Conta3 {
 	private static int contadorContas;
-	int numero;
+	private int numero;
 	//String nome;
 	Cliente cliente;
 	//Cliente cliente = new Cliente();
@@ -57,7 +57,7 @@ public class Conta3 {
 		this.numero = numero;
 	}
 	
-	void depositar(double valor) {
+	public void depositar(double valor) {
 		saldo = saldo + valor;
 		
 	}
